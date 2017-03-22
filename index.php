@@ -85,7 +85,7 @@
       <div class="col-md-12">
         <div class="form-group">
           <label>7. Alamat Pekerjaan Sekarang*</label>
-          <textarea class="form-control" name="alamatkerja" required=""></textarea>
+          <textarea placeholder="Alamat Perkerjaan" class="form-control" name="alamatkerja" required=""></textarea>
         </div>
       </div>
 
@@ -1516,14 +1516,14 @@
       <div class="col-md-12">
               <div class="form-group">
                 <label>60. Menurut Saudara komptensi / mata kuliah yang telah ditempuh apa yang sangat bermanfaat untuk membantu dalam bidang kerja Saudara ? (Bisa disebutkan lebih dari 1 dan pisahkan dengan tanda koma) *</label>
-                <textarea class="form-control" name="satu" required=""></textarea>
+                <textarea placeholder="Isi Saran" class="form-control" name="satu" required=""></textarea>
               </div>
       </div>
 
       <div class="col-md-12">
               <div class="form-group">
                 <label>61. Kompetensi / mata kuliah apa yang perlu ditambah yang sesuai dengan bidang kerja di perusahaan saudara ? (Bisa disebutkan lebih dari 1 dan pisahkan dengan tanda koma) *</label>
-                <textarea class="form-control" name="dua" required=""></textarea>
+                <textarea placeholder="Isi Saran" class="form-control" name="dua" required=""></textarea>
               </div>
       </div>
 
@@ -1531,7 +1531,7 @@
       <div class="col-md-12">
               <div class="form-group">
                 <label>62. Mata kuliah / kompetensi apa yang kurang sesuai dengan bidang kerja Saudara saat ini ? (Bisa disebutkan lebih dari 1 dan pisahkan dengan tanda koma) *</label>
-                <textarea class="form-control" name="tiga" required=""></textarea>
+                <textarea placeholder="Isi Saran" class="form-control" name="tiga" required=""></textarea>
               </div>
       </div>
 
