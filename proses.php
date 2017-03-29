@@ -11,9 +11,10 @@ $A6 = $_POST['tempatkerja'];
 $A7 = $_POST['alamatkerja'];
 $A8 = $_POST['bidangusaha'];
 $A9 = $_POST['jabatan'];
+$A10 = $_POST['tahunpengisian'];
 
-$A = "INSERT INTO identitas (nama, jeniskelamin, nomor, email, fb, tempatkerja, alamatkerja, bidangusaha, jabatan)
-VALUES ('$A1', '$A2', '$A3', '$A4', '$A5', '$A6', '$A7', '$A8', '$A9');
+$A = "INSERT INTO identitas (nama, jeniskelamin, nomor, email, fb, tempatkerja, alamatkerja, bidangusaha, jabatan, tahunpengisian)
+VALUES ('$A1', '$A2', '$A3', '$A4', '$A5', '$A6', '$A7', '$A8', '$A9', '$A10');
 ";
 
 $insert_A = mysqli_query($koneksi, $A);
