@@ -1,15 +1,11 @@
 <?php
-$db_host = "localhost";
-$db_user = "root";
-$db_pass = "";
-$db_name = "kuis";
-
-$koneksi = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
-
-if(mysqli_connect_errno()){
-	//echo 'Gagal melakukan koneksi ke Database : '.mysqli_connect_error();
-}else{
-	//echo 'Koneksi berhasil ^_^';
-}
-
+	
+	$url = mysql_connect("localhost", "root", "");
+	$selectdb = mysql_select_db("kuis", $url);
+	
+	if ($selectdb){
+		//echo "SUKSES";
+	} else {
+		echo "Tidak dapat terhubung ke database";
+	}
 ?>
